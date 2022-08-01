@@ -1,4 +1,9 @@
-﻿# Pokémon Essentials
+﻿# Fangame Project
+
+Using the Pokemon Essentials git repo.
+
+
+# Pokémon Essentials
 
 Based on Essentials v20.1.
 
