@@ -1,6 +1,12 @@
 ﻿# Fangame Project
 
 Using the Pokemon Essentials git repo.
+List of things to do before publicizing: 
+1. Update PBS files (all)
+2. Load in Tilesets
+3. Make basic changes, like screensize and player char
+4. Create Testmap
+5. Load in Plugins
 
 
 # Pokémon Essentials
