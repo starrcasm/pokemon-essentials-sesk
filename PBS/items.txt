@@ -6082,3 +6082,37 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+#-------------------------------
+#-------------------------------
+[MAGICSTICK]
+Name = Magic Stick
+NamePlural = Magic Sticks
+Pocket = 1
+Price = 1000
+Flags = Fling_60
+Description = An item to be held by Dustowl, Hoodini, or Quillosoph. It is a rod that boosts critical-hit ratio.
+#-------------------------------
+[FERMENTEDBERRY]
+Name = Fermented Berry
+NamePlural = Fermented Berries
+Pocket = 1
+Price = 1000
+Flags = Fling_20
+Description = If consumed by Kimonodo, it increases Attack at half health. For anyone else, it causes confusion.
+#-------------------------------
+[PACKAGE]
+Name = Package
+NamePlural = Packages
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A package to be delivered to a man in Longspur City.
+#-------------------------------
+[MUSEUMKEY]
+Name = Museum Key
+NamePlural = Museum Keys
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A key to the abandoned museum in Auklet Town.

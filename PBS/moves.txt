@@ -8722,3 +8722,84 @@ TotalPP = 40
 Target = User
 FunctionCode = RaiseUserDefense1
 Description = The user withdraws its body into its hard shell, raising its Defense stat.
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
+[GRASSSHURIKEN]
+Name = Grass Shuriken
+Type = GRASS
+Category = Special
+Power = 15
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+Priority = 1
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = The user hits the target with throwing stars 2-5 times in a row. This move always goes first.
+#-------------------------------
+[HARETRIGGER]
+Name = Hare Trigger
+Type = FIRE
+Category = Special
+Power = 25
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove
+Description = placeholder
+#-------------------------------
+[HEDGECHARGE]
+Name = Dragon Rush
+Type = DRAGON
+Category = Physical
+Power = 100
+Accuracy = 75
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+EffectChance = 20
+Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
+#-------------------------------
+[SEAHOOK]
+Name = Dragon Rush
+Type = DRAGON
+Category = Physical
+Power = 100
+Accuracy = 75
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+EffectChance = 20
+Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
+#-------------------------------
+[DRAGONHOOF]
+Name = Dragon Rush
+Type = DRAGON
+Category = Physical
+Power = 100
+Accuracy = 75
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+EffectChance = 20
+Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
+#-------------------------------
+[DRAGONSPOUT]
+Name = Dragon Rush
+Type = DRAGON
+Category = Physical
+Power = 100
+Accuracy = 75
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove,TramplesMinimize
+EffectChance = 20
+Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.

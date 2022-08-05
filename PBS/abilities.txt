@@ -1070,3 +1070,58 @@ Description = Combines Unnerve and Chilling Neigh Abilities.
 [ASONEGRIMNEIGH]
 Name = As One
 Description = Combines Unnerve and Grim Neigh Abilities.
+#-------------------------------
+#-------------------------------
+#-------------------------------
+#-------------------------------
+[CLEANUP]
+Name = Clean Up
+Description = Removes all hazards from battlefield upon entry.
+#-------------------------------
+[ALLSEEING]
+Name = All-Seeing
+Description = The moves used by this Pokémon never miss.
+#-------------------------------
+[PRODUCE]
+Name = Produce
+Description = Generates berries according to its form, from time to time.
+#-------------------------------
+[POLLENDROP]
+Name = Pollen Drop
+Description = Changes the Pokémon's shape when HP is halved.
+#-------------------------------
+[CACOPHONY]
+Name = Cacophony
+Description = Boosts the power of Sound-based moves.
+#-------------------------------
+[DUO]
+Name = Duo
+Description = Doubles any stat changes.
+#-------------------------------
+[VIRUS]
+Name = Virus
+Description = Replaces foe's ability upon physical contact.
+#-------------------------------
+[BRIGHTLIGHT]
+Name = Bright Light
+Description = Reduces the foe's accuracy upon entry.
+#-------------------------------
+[TURBULENT]
+Name = Turbulent
+Description = Increases length and intensity of rain, hail, and sandstorms.
+#-------------------------------
+[STARMAP]
+Name = Star Map
+Description = This Pokémon's attacks will hit opponents that are immune.
+#-------------------------------
+[SEAFARER]
+Name = Seafarer
+Description = Powers up Water-type moves.
+#-------------------------------
+[SKYROAMER]
+Name = Skyroamer
+Description = Powers up Flying-type moves.
+#-------------------------------
+[TRANSMUTE]
+Name = Transmute
+Description = Changes form upon usage of certain moves.

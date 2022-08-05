@@ -1,118 +1,219 @@
 # See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[CAMPER,Liam]
-LoseText = A very good battle, indeed!
-Pokemon = DIGLETT,10
-Pokemon = BONSLY,11
+[AUGUST,August,1]
+LoseText = I knew the Caflora was the stronger one...
+Pokemon = RABLIT,5
 #-------------------------------
-[LEADER_Brock,Brock]
-Items = FULLRESTORE,FULLRESTORE
-LoseText = Very good.
-Pokemon = GEODUDE,12
-    Gender = male
-    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
-    AbilityIndex = 0
-    IV = 20,20,20,20,20,20
-Pokemon = ONIX,14
-    Name = Rocky
-    Gender = male
-    Shiny = yes
-    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
-    AbilityIndex = 0
-    Item = SITRUSBERRY
-    IV = 20,20,20,20,20,20
-    Ball = HEAVYBALL
+[AUGUST,August,2]
+LoseText = I knew the Rablit was the stronger one...
+Pokemon = CRAWDLER,5
 #-------------------------------
-[TEAMROCKET_M,Grunt,1]
-LoseText = You're too good for me!
-Pokemon = WEEPINBELL,21
-    Shadow = yes
+[AUGUST,August,3]
+LoseText = I knew the Crawdler was the stronger one...
+Pokemon = CAFLORA,5
 #-------------------------------
-[TEAMROCKET_F,Grunt,1]
-LoseText = You're too good for me!
-Pokemon = BURMY,19
-Pokemon = WINGULL,19
-Pokemon = ELECTABUZZ,20
-    Shadow = yes
+[YOUNGSTER,Joey]
+LoseText = I regret making eye contact...
+Pokemon = BUSHBAB,4
 #-------------------------------
-[YOUNGSTER,Ben]
-LoseText = Aww, I lost.
-Pokemon = RATTATA,11
-Pokemon = EKANS,11
+[LASS,Emma]
+LoseText = Whew...I've gotta do better next time!
+Pokemon = KEETOO,3
+Pokemon = PREEWI,3
 #-------------------------------
-[CAMPER,Jeff]
-LoseText = A very good battle, indeed!
-Pokemon = SPEAROW,16
-Pokemon = SENTRET,16
+[YOUNGSTER,David]
+LoseText = Mud on my face...big disgrace...
+Pokemon = PARTICOAL,4
+Pokemon = PARTICOAL,4
+Pokemon = PARTICOAL,4
 #-------------------------------
-[CAMPER,Jeff,1]
-LoseText = You beat me again!
-Pokemon = FEAROW,29
-Pokemon = FURRET,29
+[LASS,Kim]
+LoseText = Dang! You made me freeze up.
+Pokemon = GOOPOD,5
+Pokemon = WEEBAL,5
 #-------------------------------
-[PICNICKER,Susie]
-LoseText = Defeated! Oh my!
-Pokemon = MEOWTH,18
+[APRIL,April,1]
+LoseText = You caught me off guard there!
+Pokemon = CRAWDLER,11
+Pokemon = SNOOF,9
 #-------------------------------
-[PICNICKER,Susie,1]
-LoseText = Defeated! Oh my!
-Pokemon = PERSIAN,32
+[APRIL,April,2]
+LoseText = You caught me off guard there!
+Pokemon = CAFLORA,11
+Pokemon = SNOOF,9
 #-------------------------------
-[HIKER,Ford]
-LoseText = You're too good for me!
-Pokemon = MACHOP,19
+[APRIL,April,3]
+LoseText = You caught me off guard there!
+Pokemon = RABLIT,11
+Pokemon = SNOOF,9
 #-------------------------------
-[FISHERMAN,Andrew]
-LoseText = Washed out!
-Pokemon = MAGIKARP,14
-Pokemon = MAGIKARP,18
+[BUGCATCHER_M,Joshua]
+LoseText = My net has a lot of holes in it...
+Pokemon = WEEVAC,6
+Pokemon = WEEVAC,6
 #-------------------------------
-[BEAUTY,Bridget]
-LoseText = My Skitty!
-Pokemon = SKITTY,18
+[BUGCATCHER_F,Jessica]
+LoseText = Buzz buzz...the hive mind wasn't together this time.
+Pokemon = POLBEE,8
 #-------------------------------
-[LASS,Crissy]
-LoseText = You didn't have to win so convincingly!
-Pokemon = PLUSLE,17
-Pokemon = MINUN,17
+[CAMPER_M,Nate]
+LoseText = Oof, the Fighting-type was the right answer.
+Pokemon = WEEBAL,9
 #-------------------------------
-[COOLCOUPLE,Alice & Bob]
-LoseText = Our teamwork failed!
-Pokemon = TURTWIG,19
-Pokemon = CHIMCHAR,19
+[CAMPER_F,Paula]
+LoseText = We got washed out...
+Pokemon = PARTICOAL,9
 #-------------------------------
-[POKEMONTRAINER_May,May]
-LoseText = ...
-Pokemon = COMBUSKEN,19
+[CAMPER_F,Sara]
+LoseText = Burnt to a crisp...
+Pokemon = SILFERN,9
 #-------------------------------
-[SWIMMER2_F,Ariel]
-LoseText = Washed out!
-Pokemon = STARYU,15
-Pokemon = GOLDEEN,11
+[CAMPER_M,Mason]
+LoseText = We crumbled apart!
+Pokemon = MOSTON,9
 #-------------------------------
-[RIVAL1,Blue]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = BULBASAUR,18
+[FARMHAND_F,Sally]
+LoseText = I reckon I was askin' for a beating.
+Pokemon = BUSHBAB,8
+Pokemon = BUSHBAB,8
 #-------------------------------
-[RIVAL1,Blue,1]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = CHARMANDER,18
+[FARMHAND_M,Joseph]
+LoseText = I overexerted myself again!
+Pokemon = FRUBAT,10
 #-------------------------------
-[RIVAL1,Blue,2]
-LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = SQUIRTLE,18
+[FARMHAND_F,Donna]
+LoseText = Guess I better start getting up even earlier to train.
+Pokemon = POLBEE,11
 #-------------------------------
-[CHAMPION,Blue]
-LoseText = A good battle indeed!
-Pokemon = VENUSAUR,63
-    Item = SITRUSBERRY
-Pokemon = CHARIZARD,63
-    Item = SITRUSBERRY
-Pokemon = BLASTOISE,63
-    Item = SITRUSBERRY
+[FARMHAND_M,Hank]
+LoseText = In reality you're closer to 30 feet from facing Regina.
+Pokemon = KEETOO,8
+Pokemon = BUSHBAB,9
+#-------------------------------
+[LASS,Tara]
+LoseText = You certainly have the stuff to best me!
+Pokemon = WEEBAL,12
+#-------------------------------
+[LEADER_Regina,Regina]
+LoseText = Well I'll be! You've just won yourself a Pokémon League Badge!
+Pokemon = BUSHBAB,12
+Pokemon = HAIBRIL,14
+    Moves = DOUBLEKICK,RAGE,TACKLE,RETURN
+    Item = ORANBERRY
+#-------------------------------
+[ECHO_F,Grunt,1]
+LoseText = Hm. You are pretty strong.
+Pokemon = FRUBAT,9
+Pokemon = OPABY,12
+#-------------------------------
+[FISHERMAN,Frank]
+LoseText = I guess land Pokémon can be strong, too...
+Pokemon = FINNOW,7
+Pokemon = FINNOW,8
+Pokemon = FINNOW,9
+Pokemon = FINNOW,10
+#-------------------------------
+[FISHERMAN,Louis]
+LoseText = Okay, I'd say you are more of a barracuda.
+Pokemon = GOOPOD,12
+Pokemon = BARCUSH,12
+#-------------------------------
+[LASS,Diane]
+LoseText = Guess I'm the world's second strongest trainer now.
+Pokemon = SNOOF,11
+Pokemon = MAGAMA,13
+#-------------------------------
+[HIKER,Jorge]
+LoseText = You're going places, kid.
+Pokemon = BALANSTONE,14
+#-------------------------------
+[INNERTUBE_M,Timmy]
+LoseText = I think I have sand in my trunks.
+Pokemon = GOOPOD,12
+Pokemon = GOOPOD,12
+#-------------------------------
+[INNERTUBE_F,Tammy]
+LoseText = Okay, bye...
+Pokemon = BARCUSH,12
+Pokemon = BARCUSH,12
+#-------------------------------
+[CAMPER_F,Lisa]
+LoseText = They may be riding up a bit...
+Pokemon = SHOCKATOO,15
+#-------------------------------
+[FISHERMAN,Carl]
+LoseText = You scared me!
+Pokemon = BLOBUNCH,5
+Pokemon = BLOBUNCH,10
+Pokemon = BLOBUNCH,15
+#-------------------------------
+[PSYCHIC,Devin]
+LoseText = I guess nothing's written in stone...
+Pokemon = DUSTOWL,13
+Pokemon = TAGGLER,15
+#-------------------------------
+[POKEMONBREEDER_M,Brian]
+LoseText = Type diversity isn't all it's cracked up to be.
+Pokemon = OTOZUMI,14
+Pokemon = TEDESHI,14
+Pokemon = OTTUM,14
+#-------------------------------
+[CAMPER_F,Karen]
+LoseText = Knowledge and experience are two very different things.
+Pokemon = SNOOF,15
+Pokemon = WEEBAL,15
+#-------------------------------
+[HIKER,Vlad]
+LoseText = That's the third loss today!
+Pokemon = PARTICOAL,14
+Pokemon = TEDESHI,16
+#-------------------------------
+[BACKPACKER,Jamie]
+LoseText = Well...at least they're still cute!
+Pokemon = BRAWLABY,17
+#-------------------------------
+[BUGCATCHER_F,Gina]
+LoseText = But...but the Bug-type is superior!
+Pokemon = WEEVAC,14
+Pokemon = HOOVIL,18
+#-------------------------------
+[BUGCATCHER_M,Reuben]
+LoseText = The colony failed me...
+Pokemon = ANTROOP,12
+Pokemon = ANTROOP,12
+Pokemon = ANTROOP,12
+Pokemon = ANTROOP,12
+Pokemon = ANTROOP,12
+#-------------------------------
+[BUGCATCHER_F,Charlotte]
+LoseText = Guess the net wasn't that strong, eh?
+Pokemon = POLBEE,15
+Pokemon = POLBEE,15
+#-------------------------------
+[POKEMONBREEDER_M,Brent]
+LoseText = I was wrapped up in a cocoon of defeat!
+Pokemon = BELERRY,14
+Pokemon = WILLONE,18
+#-------------------------------
+[BUGCATCHER_M,Tyler]
+LoseText = I can fall back on my second hobby, playing bass.
+Pokemon = POLBEE,15
+Pokemon = ANTROOP,16
+#-------------------------------
+[BUGCATCHER_F,Mina]
+LoseText = Just you wait until my father hears about this!
+Pokemon = ANTROOP,14
+Pokemon = MOSTON,15
+#-------------------------------
+[BUGCATCHER_F,Laurie]
+LoseText = My heart is...broken.
+Pokemon = POLBEE,16
+Pokemon = BRUISMORE,18
+#-------------------------------
+[LEADER_Hectar,Hectar]
+Items = SUPERPOTION
+LoseText = That was excellent, you really blindsided me there. You've earned the Swarm Badge!
+Pokemon = POLBEE,17
+Pokemon = ANTROOP,19
+Pokemon = ALLERGLEN,21
+    Moves = POISONSTING,POLLENPUFF,GUST,XSCISSOR
