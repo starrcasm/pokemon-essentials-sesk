@@ -14,8 +14,8 @@ BicycleBGM = Bicycle
 #-------------------------------
 [1]
 TrainerType = FINN1
-WalkCharset = trainer_POKEMONTRAINER_Red
-RunCharset = boy_run
+WalkCharset = FINN1
+RunCharset = FINN1_run
 CycleCharset = boy_bike
 SurfCharset = boy_surf
 FishCharset = boy_fish_offset

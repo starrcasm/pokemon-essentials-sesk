@@ -6,7 +6,7 @@
 
 module Settings
   # The version of your game. It has to adhere to the MAJOR.MINOR.PATCH format.
-  GAME_VERSION = "1.0.0"
+  GAME_VERSION = "0.0.1"
 
   # The generation that the battle system follows. Used throughout the battle
   # scripts, and also by some other settings which are used in and out of battle
@@ -35,9 +35,9 @@ module Settings
   # The level of newly hatched Pokémon.
   EGG_LEVEL            = 1
   # The odds of a newly generated Pokémon being shiny (out of 65536).
-  SHINY_POKEMON_CHANCE = (MECHANICS_GENERATION >= 6) ? 16 : 8
+  SHINY_POKEMON_CHANCE = 64
   # Whether super shininess is enabled (uses a different shiny animation).
-  SUPER_SHINY          = (MECHANICS_GENERATION >= 8)
+  SUPER_SHINY          = false
   # The odds of a wild Pokémon/bred egg having Pokérus (out of 65536).
   POKERUS_CHANCE       = 3
 
@@ -214,7 +214,7 @@ module Settings
   # that Dex list, no matter which region the player is currently in.
   def self.pokedex_names
     return [
-      [_INTL("Kanto Pokédex"), 0],
+      [_INTL("Koharo Pokédex"), 0],
       [_INTL("Johto Pokédex"), 1],
       _INTL("National Pokédex")
     ]
@@ -355,9 +355,9 @@ module Settings
   #=============================================================================
 
   # The default screen width (at a scale of 1.0).
-  SCREEN_WIDTH  = 512
+  SCREEN_WIDTH  = 712
   # The default screen height (at a scale of 1.0).
-  SCREEN_HEIGHT = 384
+  SCREEN_HEIGHT = 576
   # The default screen scale factor. Possible values are 0.5, 1.0, 1.5 and 2.0.
   SCREEN_SCALE  = 1.0
 
@@ -375,7 +375,7 @@ module Settings
 
   # Available speech frames. These are graphic files in "Graphics/Windowskins/".
   SPEECH_WINDOWSKINS = [
-    "speech hgss 1",
+    "speech ss 1",
     "speech hgss 2",
     "speech hgss 3",
     "speech hgss 4",
