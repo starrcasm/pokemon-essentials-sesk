@@ -1,12 +1,6 @@
-# Audio, Graphics and Plugins folders
+# Audio, Graphics folders
 Audio/
 Graphics/
-Plugins/
-
-# Data folder, but not Data/Scripts folder
-Data/*
-!Data/Scripts.rxdata
-!Data/Scripts/
 
 # Files in the main project folder
 Game.ini
