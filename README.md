@@ -4,9 +4,9 @@ Using the Pokemon Essentials git repo.
 List of things to do before publicizing: 
 1. Update PBS files (all) [DONE]
 2. Load in Tilesets [DONE]
-3. Make basic changes, like screensize and player char
-4. Create Testmap
-5. Load in Plugins
+3. Make basic changes, like screensize and player char [DONE]
+4. Create Testmap [DONE]
+5. Load in Plugins 
 
 
 # Pokémon Essentials
