@@ -18,7 +18,7 @@ EventHandlers.add(:on_wild_pokemon_created, :make_shiny_switch,
 # and other such details.  Of course, you don't HAVE to use this code.
 EventHandlers.add(:on_wild_pokemon_created, :level_depends_on_party,
   proc { |pkmn|
-    next if $game_map.map_id != 51
+    next if !$game_map.metadata&.has_flag?("ScaleWildEncounterLevels")
     new_level = pbBalancedLevel($player.party) - 4 + rand(5)   # For variety
     new_level = new_level.clamp(1, GameData::GrowthRate.max_level)
     pkmn.level = new_level
@@ -32,7 +32,7 @@ EventHandlers.add(:on_wild_pokemon_created, :level_depends_on_party,
 # Note that you can only modify a partner trainer's Pokémon, and not the trainer
 # themselves nor their items this way, as those are generated from scratch
 # before each battle.
-#EventHandlers.trigger(:on_trainer_load, :put_a_name_here,
+#EventHandlers.add(:on_trainer_load, :put_a_name_here,
 #  proc { |trainer|
 #    if trainer   # An NPCTrainer object containing party/items/lose text, etc.
 #      YOUR CODE HERE

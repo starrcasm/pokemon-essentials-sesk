@@ -68,22 +68,26 @@ class Game_Player < Game_Character
     when :surf_fishing
       new_charset = pbGetPlayerCharset(meta.surf_fish_charset)
     when :diving, :diving_fast, :diving_jumping, :diving_stopped
-      self.move_speed = 3
+      self.move_speed = 3 if !@move_route_forcing
       new_charset = pbGetPlayerCharset(meta.dive_charset)
     when :surfing, :surfing_fast, :surfing_jumping, :surfing_stopped
-      self.move_speed = (type == :surfing_jumping) ? 3 : 4
+      if !@move_route_forcing
+        self.move_speed = (type == :surfing_jumping) ? 3 : 4
+      end
       new_charset = pbGetPlayerCharset(meta.surf_charset)
     when :cycling, :cycling_fast, :cycling_jumping, :cycling_stopped
-      self.move_speed = (type == :cycling_jumping) ? 3 : 5
+      if !@move_route_forcing
+        self.move_speed = (type == :cycling_jumping) ? 3 : 5
+      end
       new_charset = pbGetPlayerCharset(meta.cycle_charset)
     when :running
-      self.move_speed = 4
+      self.move_speed = 4 if !@move_route_forcing
       new_charset = pbGetPlayerCharset(meta.run_charset)
     when :ice_sliding
-      self.move_speed = 4
+      self.move_speed = 4 if !@move_route_forcing
       new_charset = pbGetPlayerCharset(meta.walk_charset)
     else   # :walking, :jumping, :walking_stopped
-      self.move_speed = 3
+      self.move_speed = 3 if !@move_route_forcing
       new_charset = pbGetPlayerCharset(meta.walk_charset)
     end
     @character_name = new_charset if new_charset
@@ -228,7 +232,7 @@ class Game_Player < Game_Character
   end
 
   def pbTerrainTag(countBridge = false)
-    return $map_factory.getTerrainTag(self.map.map_id, @x, @y, countBridge) if $map_factory
+    return $map_factory.getTerrainTagFromCoords(self.map.map_id, @x, @y, countBridge) if $map_factory
     return $game_map.terrain_tag(@x, @y, countBridge)
   end
 
@@ -574,13 +578,13 @@ end
 
 def pbUpdateVehicle
   if $PokemonGlobal&.diving
-    $game_player.set_movement_type(:diving)
+    $game_player.set_movement_type(:diving_stopped)
   elsif $PokemonGlobal&.surfing
-    $game_player.set_movement_type(:surfing)
+    $game_player.set_movement_type(:surfing_stopped)
   elsif $PokemonGlobal&.bicycle
-    $game_player.set_movement_type(:cycling)
+    $game_player.set_movement_type(:cycling_stopped)
   else
-    $game_player.set_movement_type(:walking)
+    $game_player.set_movement_type(:walking_stopped)
   end
 end
 

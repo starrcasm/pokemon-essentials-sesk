@@ -45,6 +45,14 @@ class Scene_Map
     @spritesets = {}
   end
 
+  def dispose
+    disposeSpritesets
+    @map_renderer.dispose
+    @map_renderer = nil
+    @spritesetGlobal.dispose
+    @spritesetGlobal = nil
+  end
+
   def autofade(mapid)
     playingBGM = $game_system.playing_bgm
     playingBGS = $game_system.playing_bgs
@@ -168,7 +176,6 @@ class Scene_Map
     end
     updateSpritesets
     if $game_temp.title_screen_calling
-      $game_temp.title_screen_calling = false
       SaveData.mark_values_as_unloaded
       $scene = pbCallTitle
       return
@@ -225,8 +232,10 @@ class Scene_Map
       break if $scene != self
     end
     Graphics.freeze
-    disposeSpritesets
+    dispose
     if $game_temp.title_screen_calling
+      pbMapInterpreter.command_end if pbMapInterpreterRunning?
+      $game_temp.title_screen_calling = false
       Graphics.transition
       Graphics.freeze
     end

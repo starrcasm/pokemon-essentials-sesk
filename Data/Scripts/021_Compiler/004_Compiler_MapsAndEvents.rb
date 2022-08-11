@@ -792,7 +792,7 @@ module Compiler
           )
           push_event(list, 208, [0])   # Change Transparent Flag (invisible)
           push_script(list, "Followers.follow_into_door")
-          push_event(list, 210, [], indent)   # Wait for Move's Completion
+          push_event(list, 210, [])   # Wait for Move's Completion
           push_move_route_and_wait(   # Move Route for door closing
             list, 0,
             [PBMoveRoute::Wait, 2,
@@ -986,19 +986,14 @@ module Compiler
       list[index, 0] = new_events if new_events.length > 0
       changed = true
     elsif script[/^\s*pbTrainerBattle\((.+)\)\s*$/]
-      echoln ""
-      echoln $1
       battle_params = split_string_with_quotes($1)   # Split on commas
-      echoln battle_params
       trainer1 = "#{battle_params[0]}, #{battle_params[1]}"
       trainer1 += ", #{battle_params[4]}" if battle_params[4] && battle_params[4] != "nil"
       list[index].parameters[1] = "TrainerBattle.start(#{trainer1})"
       old_indent = list[index].indent
       new_events = []
       if battle_params[2] && !battle_params[2].empty? && battle_params[2] != "nil"
-        echoln battle_params[2]
         speech = battle_params[2].gsub(/^\s*_I\(\s*"\s*/, "").gsub(/\"\s*\)\s*$/, "")
-        echoln speech
         push_comment(new_events, "EndSpeech: #{speech.strip}", old_indent)
       end
       if battle_params[3] && battle_params[3][/true/]
