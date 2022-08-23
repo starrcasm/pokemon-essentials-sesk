@@ -25,7 +25,7 @@ module FollowingPkmn
 
   # The key the player needs to press to quickly cycle through their party. Set
   # this to nil if you want to disable this feature
-  CYCLE_PARTY_KEY           = nil
+  CYCLE_PARTY_KEY           = :JUMPDOWN
 
   # Status tones to be used, if this is true (Red, Green, Blue)
   APPLY_STATUS_TONES        = true

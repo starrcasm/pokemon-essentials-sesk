@@ -1,4 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Apalis Town (3) - Route 1 (4)
-3,East,10,4,West,0
+# Route 1 (4) - Apalis Town (3)
+4,West,0,3,East,10
+# Corella Town (5) - Route 1 (4)
+5,West,0,4,East,26
